@@ -1,0 +1,5 @@
+from . import app
+
+@app.route('/search', subdomain='weacher')
+def api_search():
+    pass
